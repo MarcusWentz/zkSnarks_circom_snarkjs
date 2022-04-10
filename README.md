@@ -22,3 +22,5 @@ After setting up a ceremony before a circuit, run the following to generate cont
     snarkjs plonk verify verification_key.json public.json proof.json
     snarkjs zkey export solidityverifier circuit_final.zkey verifier.sol
     snarkjs zkey export soliditycalldata public.json proof.json
+
+Note: the output proof can change for the same zkSnark and Solidity smart contract.
