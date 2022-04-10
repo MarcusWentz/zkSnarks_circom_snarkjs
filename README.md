@@ -1,6 +1,6 @@
 # zkSnarks_Circom_snarkjs
 
-Solidity smart contract created using a zkSnark with public and private intputs.
+Solidity smart contract created using a zkSnark with public and private inputs.
 
 Generated contract using snarkjs [PLONK] deployed on Rinkeby here: https://rinkeby.etherscan.io/address/0xad21B185a6AD414760fb6769B003F3A644c6F444
 
