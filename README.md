@@ -1,4 +1,4 @@
-# zkSnarks_Circom_snarkjs
+# zkSnarks_circom_snarkjs
 
 Solidity smart contract created using a zkSnark with public and private inputs.
 
