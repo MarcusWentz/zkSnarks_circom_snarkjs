@@ -2,9 +2,33 @@
 
 Solidity smart contract created using a zkSnark with public and private inputs.
 
-Generated contract using snarkjs [PLONK] deployed on Rinkeby here: https://rinkeby.etherscan.io/address/0xad21B185a6AD414760fb6769B003F3A644c6F444
+## zkSnark and Public Input Signal(s)
 
-Use this to format output "proof,public" inputs for verify.sol for true/false feedback: https://lingojam.com/TexttoOneLine
+    circuit.circom
+
+## Output Signal(s)
+
+    proof.json
+
+## Secret Input Signal(s)
+
+    input.json
+
+## Deployed and verified contract
+
+Generated contract using snarkjs [PLONK] deployed and verified on Goerli:
+
+https://goerli.etherscan.io/address/0xa1f170ed7d3f7210a2ccac11b21531921174e7af#code
+
+## Format inputs
+
+Formats the outputs for ```proof``` and ```pubSignals``` from:
+
+    snarkjs zkey export soliditycalldata public.json proof.json
+
+```proof``` and ```pubSignals``` are inputs for verifier.sol to test if the proof being correct is true or false:
+
+https://lingojam.com/TexttoOneLine
 
 Reference: https://github.com/iden3/snarkjs
 
